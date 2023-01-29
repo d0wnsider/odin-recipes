@@ -1,7 +1,8 @@
 /* local file installation for custom font*/
 @font-face {
     font-family: "Satisfy-Regular";
-    src: local('/recipes/Satisfy-Regular.ttf');
+    src: local("Satisfy-Regular"),
+    url("/recipes/Satisfy-Regular.ttf") format("truetype");
 }
 
 h1 {
