@@ -20,6 +20,7 @@ a {
 
 .divBox {
     display: flex;
+    justify-content: center;
 }
 
 img {

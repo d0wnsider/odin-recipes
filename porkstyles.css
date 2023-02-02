@@ -1,0 +1,14 @@
+/* local file installation for custom font */
+@font-face {
+    font-family: "Satisfy";
+    src: url("../odin-recipes/recipes/Satisfy-Regular.ttf") format('truetype');
+}
+
+.button {
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+}
